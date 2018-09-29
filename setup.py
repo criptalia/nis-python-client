@@ -46,12 +46,12 @@ setup(
     author='semolex (Oleksii Semeshchuk)',
     author_email='semolex@live.com',
     packages=['nemnis'],
-    url='https://github.com/semolex/nis-python-client',
+    url='https://github.com/criptalia/nis-python-client',
     license='MIT',
     test_suite='setup.test_suite',
     zip_safe=True,
     install_requires=[
-        'requests==2.18.4',
+        'requests==2.19.1',
         'six',
     ],
     test_requires=[
